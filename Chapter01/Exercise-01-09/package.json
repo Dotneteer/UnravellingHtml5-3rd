@@ -1,0 +1,29 @@
+{
+  "name": "unraveling-html5-3rd-edition",
+  "version": "1.0.0",
+  "description": "Code samples for the Unraveling HTML5, CSS, and JavaScript book",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server --port=8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dotneteer/UnravellingHtml5-3rd.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS",
+    "CSS3",
+    "JavaScript",
+    "EcmaScript"
+  ],
+  "author": "Istvan Novak (dotneteer@hotmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dotneteer/UnravellingHtml5-3rd/issues"
+  },
+  "homepage": "https://github.com/Dotneteer/UnravellingHtml5-3rd#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
