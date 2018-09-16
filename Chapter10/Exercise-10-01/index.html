@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Challenging layout</title>
+  <style>
+    .container {
+      white-space: nowrap;
+      overflow-x: hidden;
+    }
+    .box {
+      display: inline-block;
+      height: 100px;
+      width: 200px;
+    }
+    .red {
+      background-color: red;
+    }
+    .green {
+      background-color: green;
+    }
+    .blue {
+      background-color: blue;
+    }
+    .wide {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="red box">
+      <span>Box #1</span>
+    </div>
+    <div class="green box">
+        <span>Box #2</span>
+    </div>
+    <div class="wide blue box">
+        <span>Wide box</span>
+      </div>
+  </div>
+</body>
+</html>
